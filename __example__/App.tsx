@@ -17,7 +17,7 @@ export default function App() {
     <ScreenManager
       initialAppearance={{
         get backgroundColor() {
-          return colors.BACKGROUND;
+          return colors.WARN;
         },
         get bottomBar() {
           return colors.PRIMARY;
